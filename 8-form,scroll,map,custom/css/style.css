@@ -161,7 +161,7 @@ ul {
     top: 40%;
     margin-top: -2.5px;
     pointer-events: none;
-    background: url(/img/strelka-open.svg) no-repeat center center;
+    background: url(../img/strelka-open.svg) no-repeat center center;
     transition: .1s ease-in-out;
 }
 
@@ -177,7 +177,7 @@ ul {
     top: 40%;
     margin-top: -2.5px;
     pointer-events: none;
-    background: url(/img/strelka-closed.svg) no-repeat center center;
+    background: url(../img/strelka-closed.svg) no-repeat center center;
     transition: .1s ease-in-out;
 }
 
@@ -292,13 +292,14 @@ ul {
     margin-top: 50px;
     margin-left: 100px;
     width: 440px;
-    height: 410px;
+    min-height: 410px;
     background-color: black;
+    border-radius: 15px;
 
 }
 
 .input-form {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 0px;
     margin-right: 70px;
     width: 360px;
@@ -330,7 +331,7 @@ ul {
     font-size: 12px;
     line-height: 14px;
     font-family: sans-serif;
-    margin: 20px 0 4px 70px;
+    margin: 10px 0 2px 70px;
     letter-spacing: 1px
 }
 
